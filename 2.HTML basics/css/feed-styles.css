@@ -1,0 +1,51 @@
+body {
+  background-color: #555;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -310px;
+  margin-left: -460px;
+  width: 921px;
+  height: 621px;
+  background-color: #fff;
+}
+.content {
+  padding-left: 142px;
+  padding-right: 142px;
+}
+.title {
+  height: 120px;
+  width: 637px;
+  display: table-cell;
+  vertical-align: bottom;
+  font-family:"Myriad Pro", arial, helvetica, sans-serif;
+  font-size: 39px;
+}
+.records-container {
+  padding-top: 33px;
+  height: 371px;
+}
+.img-wrapper {
+  float: left;
+  width: 25px;
+}
+.caption {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  float: left;
+  width: 597px;
+  padding-right: 15px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.date {
+  color: #000;
+}
+.paragraph {
+  padding-top: 5px;
+  color: #9d9d9d;
+}
+a {
+  color: #00a9ff;
+}
