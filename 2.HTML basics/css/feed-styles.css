@@ -49,3 +49,6 @@ body {
 a {
   color: #00a9ff;
 }
+a:visited {
+  color: #ba00ff;
+}
