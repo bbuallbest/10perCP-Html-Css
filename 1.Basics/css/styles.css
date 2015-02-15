@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:700,400italic);
+
+.container {
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  left: 0px;
+  width: 100%;
+}
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  color: #373434;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0;
+}
+.head-container {
+  width: 400px;
+  height: 80%;
+  font-size: 0;
+  text-align: center;
+  display: inline-block;
+}
+.head-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.head-container img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.quote {
+  text-align: center;
+  font-size: 20px;
+  width: 400px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.author {
+  font-size: 15px;
+  margin-left:65%;
+  padding: 15px;
+  margin-bottom:20%;
+  font-style: italic;
+}
