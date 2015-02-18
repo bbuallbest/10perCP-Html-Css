@@ -1,17 +1,18 @@
 body {
   background-color: #111;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 
   /****************/
- /*    Header    */
+ /**** Header ****/
 /****************/
 
 .header {
   padding: 0 220px;
   width: 960px;
   margin: 0 auto;
-  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  /*font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
   /*background-color: #888;*/
   font-size: 0px;
 }
@@ -25,6 +26,11 @@ header a {
 .header-level-2 {
   height: 60px;
   background-color: #fff;
+}
+.header-level-2 a:hover,
+.right-navi-level-2 a.wishlist:hover,
+.right-navi-level-2 a.cart:hover {
+  color: #a5a5a5;
 }
 a.brand {
   display: inline-block;
@@ -127,6 +133,7 @@ a.search i {
   border-radius: 3px;
   line-height: 19px;
   vertical-align: middle;
+  font-size: 13px;
   background-color: #adadad;
   color: #fff;
 }
@@ -134,18 +141,200 @@ a.search i {
 .cart .badge {
   margin-left: 3px;
 }
-.color-bg {
+.colored-bg {
   background-color: #57c5a0;
 }
 
 
   /*****************/
- /*    Content    */
+ /**** Content ****/
 /*****************/
 
 .content {
   width: 1400px;
-  height: 700px;
+  height: 1700px;
   margin: 0 auto;
+  font-size: 0px;
   background-color: #aaa;
+}
+.content a {
+  text-decoration: none;
+}
+
+  /********************/
+ /**** Top Slider ****/
+/********************/
+                    /*  Top slider - items */
+
+.slide {
+  position:relative;
+}
+.slide-info {
+  position: absolute;
+  width: 342px;
+  /*background-color: #9f9f9f;*/
+  top: 70px;
+  left: 740px;
+  color: #242424;
+}
+.price {
+  color: #fff;
+  font-size: 13px;
+  background-color: #57c5a0;
+  height: 68px;
+  width: 68px;
+  line-height: 69px;
+  text-align: center;
+}
+.slide-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+.slide-desc {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #6e6e6e;
+  text-align: center;
+  vertical-align: top;
+  font-size: 16px;
+  margin-right: 2px;
+}
+.btn i {
+  line-height: 40px;
+}
+a.btn:hover {
+  color: #57c5a0;
+}
+
+/********************/
+                    /*  Top slider - menu */
+
+.slider-navi {
+  padding-top: 6px;
+  padding-left: 220px;
+  padding-right: 220px;
+  width: 950px;
+  height: 84px;
+  background-color: #2e2e2e;
+}
+.check-line {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #000;
+}
+.check-subline {
+  display: inline-block;
+  width: 180px;
+  height: 100%;
+  background-color: #57c5a0;
+  margin-right: 5px;
+  margin-left: 5px;
+  visibility: hidden;
+}
+.check-subline.checked {
+  visibility: visible;
+}
+.check-subline + .check-subline:before {
+  visibility: visible;
+  margin-left: -6px;
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 2px;
+  background-color: #777;
+}
+.slider-navi-items {
+  /*background-color: #999;*/
+  width: 950px;
+  height: 70px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 4px;
+  /*line-height: 40px;*/
+  vertical-align: middle;
+}
+.slider-navi-items:before {
+  content: '';
+  line-height: 70px;
+  height: 70px;
+  /*vertical-align: middle;*/
+}
+.slider-item {
+  display: inline-block;
+  width: 180px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
+  /*background-color: #ddd;*/
+  text-align: center;
+}
+.slider-item a {
+  font-size: 17px;
+  color: #acacac;
+}
+.slider-item a.active,
+.slider-item a:hover {
+  color: #fff;
+}
+.slider-item p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #787878;
+}
+
+  /******************/
+ /**** Specials ****/
+/******************/
+
+.specials {
+  padding: 25px 220px;
+  width: 960px;
+  height: 180px;
+  background-color: #444;
+}
+.special {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  width: 300px;
+  height: 180px;
+}
+.special-caption {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 180px;
+  /*background: rgba(0,255,0,0.3);*/
+  font-size: 23px;
+  text-align: center;
+}
+.special-caption:before {
+  display: inline-block;
+  content: '';
+  height: 180px;
+  line-height: 180px;
+  vertical-align: middle;
+}
+.special-caption span {
+  display: inline-block;
+  color: #fff;
+  height: 60px;
+  padding: 0 25px;
+  min-width: 130px;
+  font-size: 24px;
+  line-height: 60px;
+  background: rgba(45,44,43,0.9);
 }
