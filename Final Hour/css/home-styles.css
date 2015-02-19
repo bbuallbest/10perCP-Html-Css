@@ -700,3 +700,34 @@ a.social-btn i {
 a.small-btn {
   font-size: 10px;
 }
+
+  /****************/
+ /**** Footer ****/
+/****************/
+
+footer {
+  width: 960px;
+  height: 89px;
+  padding: 0px 220px;
+  color: #989898;
+  background-color: #2e2e2e
+}
+footer a {
+  color: #989898;
+}
+footer a:hover {
+  color: #b8b8b8;
+}
+footer:before {
+  content: '';
+  vertical-align: middle;
+  height: 89px;
+  line-height: 89px;
+}
+.footer-block {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 460px;
+  font-size: 12px;
+  vertical-align: middle;
+}
