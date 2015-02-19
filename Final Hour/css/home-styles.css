@@ -500,12 +500,141 @@ hr.line {
   /*margin-bottom: 20px;*/
 }
 .addon {
-  width: 220px;
+  vertical-align: top;
+  width: 190px;
   height: 185px;
   display: inline-block;
   background-color: #dfdbd4;
   margin: 0 10px;
+  padding: 0px 15px;
+  font-size: 12px;
+  color: #242424;
+}
+.addon .title {
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.addon p {
+  margin-top: 5px;
 }
 .addon-double {
-  width: 460px;
+  width: 430px;
+}
+.addon-record {
+  display: inline-block;
+  /*vertical-align: middle;*/
+  height: 35px;
+  width: 430px;
+  margin: 7px 0px;
+  /*background-color: #666;*/
+
+}
+.addon-date {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: #57c5a0;
+  font-size: 8px;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 5px;
+  /*line-height: 0px;*/
+}
+.addon-date-number {
+  font-size: 14px;
+  /*line-height: 6px;*/
+}
+.addon-date:before {
+  content: '';
+  height: 35px;
+  vertical-align: middle;
+  line-height: 35px;
+}
+.addon-date-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  /*background-color: #444;*/
+}
+.addon-text p,
+.addon-date-wrapper p {
+  margin: 0px;
+}
+.addon-text {
+  display: inline-block;
+  vertical-align: middle;
+  /*background-color: #524;*/
+}
+.addon-text p+p {
+  font-size: 10px;
+  margin-top: 2px;
+}
+.addon-important {
+  font-weight: bold;
+}
+
+  /********************/
+ /**** Pre footer ****/
+/********************/
+
+.pre-footer {
+  /* total height= 365*/
+  /*width: 960px;
+  height: 246px;
+  padding: 0px 220px;*/
+  background-color: #242424;
+}
+
+.pre-footer-level-1 {
+  height: 246px;
+  width: 900px;
+  padding: 0 250px;
+  /*background-color: red;*/
+}
+.widget {
+  display: inline-block;
+  vertical-align: top;
+  height: 186px;
+  width: 260px;
+  padding: 30px 20px;
+  color: #a4a4a4;
+  /*background-color: #999;*/
+  /*font-size: 10px;*/
+}
+.widget-title {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+.widget-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+.tweet-author {
+  color: #57c5a0;
+  font-weight: bold;
+}
+.tweet-time {
+  margin-top: 5px;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+.flick-widget {
+  text-align: left;
+}
+.flick-widget a {
+  display: inline-block;
+}
+.flick-widget a + a {
+  margin-left: 8px;
+}
+.flick-widget div + div {
+  margin-top: 8px;
+}
+
+.pre-footer-level-2 {
+  height: 118px;
+  width: 1400px;
+  border-top: 1px solid #1c1c1c;
+  /*background-color: red;*/
 }
